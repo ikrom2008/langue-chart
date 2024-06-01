@@ -1,0 +1,43 @@
+{
+    "selectlabel": "Shahar",
+    "selectvalue":{
+        "value1": "Toshkent",
+        "value2": "Samarqand"
+    },
+    "topshirish": "Topshirish punktlari",
+    "yetkazish": "Buyurtmangizni 1 kunda bepul yetkazib beramiz!",
+    "savollar": "Savol-javoblar",
+    "buyurtmalar": "Buyurtmalarim",
+    "selectlang":{
+        "lang1": "Uzbekcha",
+        "lang2": "Ruscha"
+    },
+    "katalog": "Katalog",
+    "inpplaseholder": "Mahsulot va turkumlarini izlash",
+    "chart": "Chart",
+    "wish": "Saralanganlar",
+    "cart": "Savat",
+    "muddatlitv": "Muddatli to'lov",
+    "news": "Yangi savdo",
+    "salqinlik": "Uyda salqinlik",
+    "bassen": "Hovuzlar",
+    "elektronika": "Elektronika",
+    "texnika": "Maishiy texnika",
+    "kiyim": "Kiyim",
+    "poyabzal": "Poyabzallar",
+    "aksesuar": "Aksessuarlar",
+    "gozallik": "Go'zallik va parvarish",
+    "salomatlik": "Salomatlik",
+    "yana": "Yana",
+    "biz": "Biz haqqimizda",
+    "vakansiya": "Vakansiyalar",
+    "foydalanuvchilar": "Foydalanuvchilarga",
+    "bizbilan": "Biz bilan bogʻlanish",
+    "tadbirkor": "Tadbirkorlarga",
+    "uzumda": "Uzumda soting",
+    "kabinet": "Sotuvchi kabinetiga kirish",
+    "ilova": "Ilovani yuklab olish",
+    "tarmoq": "Uzum ijtimoiy tarmoqlarda",
+    "maxfiylik": "Maxfiylik kelishuvi",
+    "kelishuv": "Foydalanuvchi kelishuvi"
+}

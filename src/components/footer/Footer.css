@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 50px;
+    width: 80%;
+    
+    p{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600;
+        span{
+            font-size: 12px;
+            font-weight: 400;
+            opacity: 0.5;
+        }
+    }
+}
+.uls{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    ul{
+        list-style: none;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        li{
+            font-size: 12px;
+            font-weight: 400;
+            opacity: 0.7;
+            strong{
+                font-size: 15px;
+            }
+        }
+    }
+    
+}
