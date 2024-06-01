@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './Hero.css'
+import banner1 from '../../assets/cp47vqffrr80f2glo6ag.jpg'
+import banner2 from '../../assets/cp6uknnj2e4qlbisugtg.jpg'
+import banner3 from '../../assets/cp3is5k0u44tu6dq05rg.jpg'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 function Hero() {
     const [slideIndex, setSlideIndex] = useState(0);
@@ -21,13 +24,13 @@ function Hero() {
       <div className="Slider">
         <div className="slider">
           <div className="slide fade" style={{ display: slideIndex === 0 ? 'flex' : 'none'}}>
-            <img  src="https://images.uzum.uz/cn31ofps99ouqbftr6a0/main_page_banner.jpg"alt="Slide 1" />
+            <img  src={banner1} alt="Slide 1" />
           </div>
           <div className="slide fade" style={{ display: slideIndex === 1 ? 'flex' : 'none'}}>
-            <img src="https://images.uzum.uz/cn5242p25kub33f3d95g/main_page_banner.jpg" alt="Slide 2" />
+            <img src={banner2} alt="Slide 2" />
           </div>
           <div className="slide fade" style={{ display: slideIndex === 2 ? 'flex' : 'none'}}>
-            <img src="https://images.uzum.uz/cn0dkhhs99ouqbft9tjg/main_page_banner.jpg" alt="Slide 3" />
+            <img src={banner3} alt="Slide 3" />
           </div>
         </div>
         <div className="controls">
