@@ -11,6 +11,10 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 function Header() {
     const [lang,setLang] = useState(localStorage.getItem("i18nextLng") || "uz")
+    let locitem = localStorage.getItem("i18nextLng")
+    if(locitem === "ru-UZ"){
+        localStorage.setItem("i18nextLng","uz")
+    }
     let {t, i18n} = useTranslation()
     useEffect(() => {
         i18n.changeLanguage(lang)
@@ -36,6 +40,7 @@ function Header() {
                 <select value={lang} onChange={(e) => setLang(e.target.value)} name="" id="">                    
                     <option value="ru">{t("selectlang.lang2")}</option>
                     <option value="uz">{t("selectlang.lang1")}</option>
+                    <option value="en">{t("selectlang.lang3")}</option>
                 </select>
             </div>
         </nav>
